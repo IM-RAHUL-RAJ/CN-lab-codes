@@ -38,7 +38,7 @@ g = Graph(v)
 e=int(input("Please enter the edges:\n"))
 src=int(input("Please enter the source:\n"))
 for i in range(e):
-    s,d,w=input("Please enter edge number "+str(i+1)+" : ").split()
+    s,d,w=input("Please enter edge number (src , des , weight) "+str(i+1)+" : ").split()
     s=int(s)
     d=int(d)
     w=int(w)
