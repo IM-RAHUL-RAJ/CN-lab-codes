@@ -7,7 +7,7 @@ void cal(char str[],int c){
     char hostID[20];
     int count=0;
         while(1){
-            if(str[i]==':'){
+            if(str[i]=='.'){
                 count++;
                 if(count==c){
                     i++;
@@ -44,7 +44,7 @@ int main()
     char x[3];
     
     
-    while(str[i]!=':'){
+    while(str[i]!='.'){
         x[i]=str[i];
         
         i++;
